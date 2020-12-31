@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="hmt-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <title>Home | HMT</title>
+  </head>
+  <body>
+<!--start of navbar-->
+<div class="outside" style="padding-bottom: 2rem; padding-top: 1rem;">
+<div class="container">
+<section id="nav-bar">
+  <nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="index.html"><img class="logo-img" src="" style="width:10rem; padding-top: 1rem;"></a><!--need to add logo-->
+  <button class="navbar-toggler ml-auto custom-toggler icon-bars" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="hmt.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#intro">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">Booking</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#testimonials">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Contact</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+</section>
+</div>
+</div>
+<!--end of navbar-->
+
+<!--parallax-->
+<div class="outside">
+<div class="container">
+<header id="home">
+  <div class="header_text">
+    <h1>Welcome!</h1>
+    <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      <p>
+        <a id="header_button" href="#intro">Book Now</a>
+  </div>
+</div>
+
+<!--our story-->
+<section id="intro" style="padding-top: 3rem; background-color: #fff1e6;">
+<div class="about">
+<div class="container">
+  <div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6">
+      <img src="about.png" class="img-fluid" style="padding-bottom: 3rem; height: 400px;">
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6">
+      <h2 class="heading-text" style="padding-top: 1rem;">Our Story</h2>
+      <p class="text">First Last</p>
+      <p class="text">Occupation</p>
+      <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.</p>
+      <br>
+      <a id="about_button" href="#intro">Read More</a>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!--massage services-->
+<section id="services" style="background-color: #dccdbaff;">
+<h1 style="text-align: center; padding-top: 1rem;">Services</h1>
+<div class="massages" style="position: relative;">
+<div class="carousel">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100" src="cupping.png" alt="First slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption">
+            <p><a id="book_button" href="#intro">Book Now</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100" src="swedish.png" alt="Second slide">
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div class="carousel-caption">
+            <p><a id="book_button" href="#intro">Book Now</a></p>
+          </div>
+  </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+</section>
+
+
+<!--contact section-->
+<section id="testimonials" style="background-color: #FFF1E6; color: #070707; padding-bottom: 2rem;">
+  <div class="container">
+      <h2 class="heading-text" style="padding-top: 2rem;">Testimonals</h1>
+      <div class="row">
+      <div class="col-md-4 testimonials">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.</p>
+         <p class="details"><b> First Last</b><br> Occupation</p>
+      </div>
+      <div class="col-md-4 testimonials">
+        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata. </p>
+        <p class="details"><b> First Last</b><br> Occupation</p>
+      </div>
+      <div class="col-md-4 testimonials">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata. </p>
+         <p class="details"><b> First Last</b><br> Occupation</p>
+      </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<!--start of footer-->
+<section id="footer" style="background-color: #dccdbaff">
+<div class="footer">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <br>
+          <br>
+          <p style="font-weight: bold; font-size: 20px;">
+            <span>|   </span>About us
+          </p>
+          <p style="color: #000; font-weight: 200;">At consectetur lorem donec massa sapien faucibus et molestie ac. Molestie ac feugiat sed lectus vestibulum. Faucibus pulvinar elementum integer enim. Eu consequat ac felis donec et odio. Ac ut consequat semper viverra nam libero justo laoreet sit. Condimentum vitae sapien pellentesque habitant morbi.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <br>
+          <br>
+          <p style="font-weight: bold; font-size: 20px; color: #000;">
+          <span>|   </span>Terms & Conditions</p>
+          <p style="color: #000; font-weight: 200;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel facilisis volutpat est velit. Eu mi bibendum neque egestas. Sed cras ornare arcu dui vivamus arcu felis. Consequat nisl vel pretium lectus. Sit amet consectetur adipiscing elit. Consequat interdum varius sit amet mattis vulputate enim. Lorem ipsum dolor sit amet consectetur adipiscing. Viverra suspendisse potenti nullam ac. Tincidunt id aliquet risus feugiat in. Vel turpis nunc eget lorem.
+        </div>
+        <div class="col-md-4">
+          <br>
+          <br>
+          <p style="font-weight: bold; font-size: 20px; color: #000;">
+          <span>| </span>Contacts</p>
+          <p style="font-size: 20px; font-weight: 200;">
+          <span><a class="fa fa-phone-square fa-lg"> </a>  </span> <br> 000-000-000</p>
+          <p style="font-size: 20px; font-weight: 200;"><br>
+          <span><a class="fa fa-calendar-o fa-lg"> </a>  </span> <br> Monday-Friday</p>
+          <p style="font-size: 20px; font-weight: 200;"><br>
+          <span><a class="fa fa-compass fa-lg"> </a>  </span> <br> 123 Cherry Lane</p>          
+        </div>
+      </div>
+      </div>
+    </div>
+</section>
+<!--end of footer-->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+
+
+
+</body>
+​
+</html>
