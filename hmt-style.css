@@ -1,37 +1,37 @@
 *
 {
-  margin: 0;
-  padding: 0;
-  font-family: league-spartan;
+	margin: 0;
+	padding: 0;
+	font-family: league-spartan;
 }
-​
+
 .outside{
-  background-color: #e7c7d6ff;
+	background-color: #e7c7d6ff;
 }
 /**header**/
 #nav-bar{
-  margin: 0 !important;
-  padding: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 nav .navbar .navbar-expand-lg{
-  margin-top: 0!important;
-  margin-bottom:0 !important;
+	margin-top: 0!important;
+	margin-bottom:0 !important;
 }
 .logo-img{
-  padding-right: 3px;
-  display: inline-block;
-  width: 100px;
+	padding-right: 3px;
+	display: inline-block;
+	width: 100px;
 }
 .navbar-brand{
-  font-weight: bold;
-  color: #070707 !important;
-  letter-spacing: 2px;
+	font-weight: bold;
+	color: #070707 !important;
+	letter-spacing: 2px;
 }
 .navbar-toggler{
-  background-color:red;
-  outline: none !important;
+	background-color:red;
+	outline: none !important;
 }
-​
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(94, 94, 94, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -39,20 +39,20 @@ nav .navbar .navbar-expand-lg{
   border-color: #fff;
 }
 .navbar-nav{
-  float: left;
+	float: left;
 }
 .nav-item a{
-  color:#070707;
-  letter-spacing: 2px;
+	color:#070707;
+	letter-spacing: 2px;
 }
 .nav-item{
-  padding-right: 1rem;
+	padding-right: 1rem;
 }
 .nav-link{
-  margin-left: 1rem;
+	margin-left: 1rem;
 }
 .navbar-nav li a:hover{
-  color: #CB997E;
+	color: #CB997E;
 }
 /**Parallax Image**/
 header {
@@ -98,7 +98,7 @@ header {
 #header_button:hover {
   padding: 30px;
 }
-​
+
 #about_button {
   padding: 1rem;
   padding-right: 2rem;
@@ -110,11 +110,11 @@ header {
   transition: padding 0.5s;
   letter-spacing: 3px;
 }
-​
+
 #about_button:hover {
-  padding: 30px;
+	padding: 30px;
 }
-​
+
 #book_button {
   padding: 0.6rem;
   padding-right: 2rem;
@@ -126,12 +126,12 @@ header {
   transition: padding 0.5s;
   letter-spacing: 3px;
 }
-​
+
 #book_button:hover {
-  padding: 15px;
+	padding: 15px;
 }
-​
-​
+
+
 @media screen and (min-width: 660px) {
   #home {
     background-color: #B7B7A4;
@@ -150,15 +150,15 @@ header {
 }
 /**body text**/
 .text{
-  font-family: sans-serif;
-  font-size: 1rem;
-  color: #070707;
+	font-family: sans-serif;
+	font-size: 1rem;
+	color: #070707;
 }
 .heading-text{
-  color: #070707;
-  font-size: 2rem;
+	color: #070707;
+	font-size: 2rem;
 }
-​
+
 #button{
   padding: 1rem;
   padding-right: 2rem;
@@ -170,87 +170,88 @@ header {
   transition: padding 0.5s;
   letter-spacing: 3px;
 }
-​
+
 /*our story image max width*/
 .ourstory img{
     width:100%;
 }
-​
+
 .container {
-  padding-right: 3rem;
-  padding-left: 3rem;
+	padding-right: 3rem;
+	padding-left: 3rem;
 }
-​
-​
+
+
 /*adjust to larger screen*/
 @media (max-width: 45em) {
-  .banner h1{
-   font-size:2em;
-  }
-  .col-sm-8 h2{
-    font-size:1.75em;
-  }
-  .col-sm-8 h3{
-    font-size:1.25em;
-  }
+	.banner h1{
+	 font-size:2em;
+	}
+	.col-sm-8 h2{
+		font-size:1.75em;
+	}
+	.col-sm-8 h3{
+		font-size:1.25em;
+	}
 }
-​
+
 /*small screen adjust*/
 @media (max-width: 22em) {
-  .banner h1{
-    font-size:1em;
-  }
-  .col-sm-8 h2{
-    font-size:0.75em;
-  }
-  .col-sm-8 h3{
-    font-size:0.5em;
-  }
-​
+	.banner h1{
+		font-size:1em;
+	}
+	.col-sm-8 h2{
+		font-size:0.75em;
+	}
+	.col-sm-8 h3{
+		font-size:0.5em;
+	}
+
 }
-​
+
 .testimonials{
     font-family: sans-serif;
     font-weight: 200;
     font-size: 0.90rem;
-​
+
 **footer**
 .footer
 {
-  background: #E0DBD8;
-  opacity: 0.8;
-  padding-bottom: 3rem;
-  
+	background: #E0DBD8;
+	opacity: 0.8;
+	padding-bottom: 3rem;
+	
 }
 .link-style
 {
-  border-bottom: 1px solid;
-  padding-bottom: 0px;
-  padding-top: 10px;
-  text-decoration: none !important;
+	border-bottom: 1px solid;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	text-decoration: none !important;
 }
-​
+
 @media only screen and (max-width:960px)
 {
-  .footer-widget
-  {
-  background-image: linear-gradient(#FF9800, #A46406);
-  padding-top: 10px;
-    }
+	.footer-widget
+	{
+	background-image: linear-gradient(#FF9800, #A46406);
+	padding-top: 10px;
+		}
 }
-​
+
 /*spacing for each section*/
 .massages {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
-​
+
 .about {
-  padding-bottom: 3rem;
+	padding-bottom: 3rem;
 }
-​
+
 .footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
-​
+
+
