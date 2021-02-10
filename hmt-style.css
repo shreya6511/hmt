@@ -4,7 +4,7 @@
   padding: 0;
   font-family: league-spartan;
 }
-
+​
 .outside{
   background-color: #e7c7d6ff;
 }
@@ -31,7 +31,7 @@ nav .navbar .navbar-expand-lg{
   background-color:red;
   outline: none !important;
 }
-
+​
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(94, 94, 94, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -98,7 +98,7 @@ header {
 #header_button:hover {
   padding: 30px;
 }
-
+​
 #about_button {
   padding: 1rem;
   padding-right: 2rem;
@@ -110,11 +110,11 @@ header {
   transition: padding 0.5s;
   letter-spacing: 3px;
 }
-
+​
 #about_button:hover {
   padding: 30px;
 }
-
+​
 #book_button {
   padding: 0.6rem;
   padding-right: 2rem;
@@ -126,12 +126,12 @@ header {
   transition: padding 0.5s;
   letter-spacing: 3px;
 }
-
+​
 #book_button:hover {
   padding: 15px;
 }
-
-
+​
+​
 @media screen and (min-width: 660px) {
   #home {
     background-color: #B7B7A4;
@@ -158,7 +158,7 @@ header {
   color: #070707;
   font-size: 2rem;
 }
-
+​
 #button{
   padding: 1rem;
   padding-right: 2rem;
@@ -170,18 +170,18 @@ header {
   transition: padding 0.5s;
   letter-spacing: 3px;
 }
-
+​
 /*our story image max width*/
 .ourstory img{
     width:100%;
 }
-
+​
 .container {
   padding-right: 3rem;
   padding-left: 3rem;
 }
-
-
+​
+​
 /*adjust to larger screen*/
 @media (max-width: 45em) {
   .banner h1{
@@ -194,7 +194,7 @@ header {
     font-size:1.25em;
   }
 }
-
+​
 /*small screen adjust*/
 @media (max-width: 22em) {
   .banner h1{
@@ -206,14 +206,14 @@ header {
   .col-sm-8 h3{
     font-size:0.5em;
   }
-
+​
 }
-
+​
 .testimonials{
     font-family: sans-serif;
     font-weight: 200;
     font-size: 0.90rem;
-
+​
 **footer**
 .footer
 {
@@ -229,7 +229,7 @@ header {
   padding-top: 10px;
   text-decoration: none !important;
 }
-
+​
 @media only screen and (max-width:960px)
 {
   .footer-widget
@@ -238,21 +238,19 @@ header {
   padding-top: 10px;
     }
 }
-
+​
 /*spacing for each section*/
 .massages {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
+​
 .about {
   padding-bottom: 3rem;
 }
-
+​
 .footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
-
-
+​
